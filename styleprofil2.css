@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(projet/background.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ 
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+  margin-right: 70px;
+}
+
+.main-nav li {
+  display: inline-block;
+}
+
+.main-nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+.main-nav li.active a {
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+.main-nav li a:hover {
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: grey;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  cursor: help;
+  /* On change le curseur par défaut par un curseur d'aide. */
+}
+
+a span {
+  position: absolute;
+  margin-top: 23px;
+  margin-left: -35px;
+  color: white;
+  background: rgba(0, 0, 0, .6);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+  transform: scale(0) rotate(-12deg);
+  transition: all 0.5s;
+  opacity: 0;
+  font-size: 15px;
+}
+
+a:hover span, a:focus span {
+  transform: scale(1) rotate(0);
+  opacity: 2;
+}
+
+.profil1 {
+  width: 100%;
+  height: 80px;
+  background: rgba(0, 0, 255, 0.2);
+}
+
+.logo {
+  position: absolute;
+  height: 75px;
+  width: 150px;
+  margin-top: 2px;
+  margin-left: 50px;
+}
+
+.logo-img {
+  width: 100%;
+  height: 100%;
+}
+.pro {
+  background: rgba(0, 0, 255, 0.2);
+
+  border-radius: 8px;
+  position: absolute;
+  width: 30%;
+  height: 70px;
+  
+  color: white;
+  text-transform: uppercase;
+  font-size: 23px;
+  text-align: center;
+  margin-left: 150px;
+  margin-top: 200px;
+  font-family: "Roboto", sans-serif;
+ padding-top: : 20px;
+}
+.pro2 {
+  background: rgba(0, 0, 255, 0.2);
+
+  border-radius: 8px;
+  position: absolute;
+  width: 30%;
+  height: 70px;
+  
+  color: white;
+  text-transform: uppercase;
+  font-size: 23px;
+  text-align: center;
+ margin-left: 800px;
+  margin-top: 200px;
+  font-family: "Roboto", sans-serif;
+  padding-top: 40px; 
+}
+.pro3 {
+  background: rgba(0, 0, 255, 0.3);
+
+  border-radius: 8px;
+  position: absolute;
+  width: 30%;
+  height: 70px;
+  padding-top: 40px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 23px;
+  text-align: center;
+  margin-left: 150px;
+  margin-top: 400px;
+  font-family: "Roboto", sans-serif;
+ 
+}
+.pro4{
+  background: rgba(0, 0, 255, 0.3);
+
+  border-radius: 8px;
+  position: absolute;
+  width: 30%;
+  height: 70px;
+  padding-top: 40px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 23px;
+  text-align: center;
+  margin-left: 800px;
+  margin-top: 400px;
+  font-family: "Roboto", sans-serif;
+  
+}
+.pro a {
+  text-decoration: none;
+  color: white;
+}
+.pro a:hover {
+	color: #77B5FE;
+
+}
+.pro2 a {
+  text-decoration: none;
+  color: white;
+}
+.pro2 a:hover {
+	color: #77B5FE;
+
+}
+.pro3 a {
+  text-decoration: none;
+  color: white;
+}
+.pro3 a:hover {
+	color: #77B5FE;
+
+}
+
+
+.pro4 a {
+  text-decoration: none;
+  color: white;
+}
+.pro4 a:hover {
+  color: #77B5FE;
+
+}
